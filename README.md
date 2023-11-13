@@ -8,4 +8,6 @@ My idea was to perform webscraping to retrieve data from the [top 250 movies IMD
 
 In order to do this I created **three** scripts with different goals.
 
-## First script
+## First script ([movie_scraper.py](https://github.com/h2frank/Python-Project-Hector/blob/main/movie_selector.py))
+
+The idea of this script is to generate a database of the 250 top movies according to IMDB and save the output file to an excel file,
