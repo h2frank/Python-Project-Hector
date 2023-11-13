@@ -8,9 +8,7 @@ The idea for the project proposed by ICleaf is stated in the image below:
 
 My idea was to perform webscraping to retrieve data from the [top 250 movies IMDB](https://m.imdb.com/chart/top/?ref_=nv_mv_250) website.
 
-I used the **requests**, **pandas** and **bs4**
-
-In order to do this I created **three** scripts with different goals.
+In order to do this I created **three** scripts with different goals and I used the **requests**, **pandas** and **bs4** libraries.
 
 ## First script ([movie_scraper.py](https://github.com/h2frank/Python-Project-Hector/blob/main/movie_selector.py))
 
