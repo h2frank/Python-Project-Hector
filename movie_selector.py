@@ -21,7 +21,7 @@ if genre_n.isdigit():
     genre_n = int(genre_n)
 
     #Checking if input makes sense and providing output
-    if genre_n > 0 and genre_n <len(genres):
+    if genre_n >= 0 and genre_n <len(genres):
         filter_mask = movies_list['genre'].str.contains(genres[genre_n])
         movies_filter = movies_list[filter_mask]
         movies_filter = movies_list.sort_values(by='rating', ascending=False).reset_index(drop=True)
