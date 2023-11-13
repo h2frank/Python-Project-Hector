@@ -10,7 +10,7 @@ In order to do this I created **three** scripts with different goals.
 
 ## First script ([movie_scraper.py](https://github.com/h2frank/Python-Project-Hector/blob/main/movie_selector.py))
 
-The idea of this script is to generate a database of the 250 top movies according to IMDB and save the output file to an excel file ([top250IMDB.xlsx](https://github.com/h2frank/Python-Project-Hector/raw/main/top250IMDB.xlsx)) so that we can later access it and get recomendations for movie titles based on a specific genre.
+The idea of this script is to generate a database of the 250 top movies according to IMDB and save the output file to an excel file ([top250IMDB.xlsx](https://github.com/h2frank/Python-Project-Hector/raw/main/top250IMDB.xlsx)) so that we can later access it and get recommendations for movie titles based on a specific genre.
 
 ### Image example of the database generated
 ![image](https://github.com/h2frank/Python-Project-Hector/assets/106637190/2e0872c5-0c43-4bc5-9f71-9858be222131)
@@ -35,3 +35,18 @@ I noticed that scraping the whole site was taking too long and generating the da
 In this case we are looking to get the top 10 movie titles of a selected genre if 10 exist, in the case that there are not 10 in the IMDB website we provide as many as we can.
 Down below we can see the output for "Drama" and "Horror" inputs again.
 
+### "Drama" output 
+![image](https://github.com/h2frank/Python-Project-Hector/assets/106637190/580419d1-2615-47e0-b933-7a680ef2c0f5)
+
+### "Drama" file
+![image](https://github.com/h2frank/Python-Project-Hector/assets/106637190/1598f027-1a02-49c8-b1d1-e3ca6e1c2b4d)
+
+### "Horror" output
+![image](https://github.com/h2frank/Python-Project-Hector/assets/106637190/e44bbf71-9a46-4694-ac75-396e558d17fd)
+
+### "Horror" file
+![image](https://github.com/h2frank/Python-Project-Hector/assets/106637190/b70f8a8d-b237-4bea-aa7f-e6b744937cb2)
+
+## Final considerations
+
+The second and third scripts that require inputs from the User have validations to check if these inputs are correctly provided and if they aren't then the script prints a message and asks to be re-runed. 
