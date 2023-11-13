@@ -52,3 +52,7 @@ Down below we can see the output for "Drama" and "Horror" inputs again.
 ## Final considerations
 
 The second and third scripts that require inputs from the User have validations to check if these inputs are correctly provided and if they aren't then the script prints a message and asks to be re-runed. 
+If you are interested in the idea here feel free to dive deep into the .py files attached to this repository.
+
+Thank,
+Hector!
